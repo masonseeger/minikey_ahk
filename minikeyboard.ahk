@@ -1,13 +1,9 @@
-^!1::
-Send, My First Script
-return
-
 ^!2::
-Send, My First Script
+Run, C:\Users\Seege\fiddle\controlmymonitor\ControlMyMonitor.exe /SetValue "\\.\DISPLAY1\Monitor0" 60 18
 return
 
 ^!3::
-Send, My First Script
+Run, C:\Users\Seege\fiddle\controlmymonitor\ControlMyMonitor.exe /SetValue "\\.\DISPLAY1\Monitor0" 60 17
 return
 
 ^!4::
